@@ -14,6 +14,7 @@ const Navbars = () => {
   }
 
   return (
+    <>
     <div className="navbar">
       <h1 style={{color:"white"}}>SHOPSY</h1>
       <button className='button'onClick={handleHome}>Home</button>
@@ -23,6 +24,11 @@ const Navbars = () => {
       
 
     </div>
+    <div className='searchbar'>
+    <input type='text' placeholder='Search Here'/>
+    </div>
+    </>
+    
   );
 };
 
