@@ -1,6 +1,6 @@
 import { useEffect} from "react";
 import "./orderPlaced.css"
-import { useNavigate } from 'react-router';
+import { useNavigate } from 'react-router-dom';
 import { useGlobal } from "../Context/Context";
 import imageSuccess from "../assets/orderSuccess.png"
 import ConfettiExplosion from 'react-confetti-explosion';
